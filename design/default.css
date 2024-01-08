@@ -1,0 +1,41 @@
+#background-video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    }
+    .bg_black{
+        background-color: black;
+    }
+    .content{
+        background-color: rgba(0, 0, 0, 0.76);
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    header nav{
+        background-color: rgba(43, 43, 43, 0.144);
+        border-radius: 5rem;
+    }
+    .header__info{
+        width: 50%;
+        text-align: start;
+    }
+    @media (max-width:1000px) {
+        .header__info{
+            width: 100%;
+            text-align: center;
+        }
+    }
